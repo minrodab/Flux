@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flux Mode</title>
+    <link rel="stylesheet" href="Fluc.css">
+</head>
+<body>
+
+    <header>
+        <p>Flux Mode</p>
+        <p>Nylanserat modehus med trendiga kläder</p>
+     </header>
+
+    <nav>
+        <a href="index.html">Hem</a> 
+        <a href="designers.html">Designers</a> 
+        <a href="webshop.html">Webbshop</a> 
+        <a href="contact.html">Kontakt</a>
+        <a href="https://minrodab.wordpress.com/" target="_blank">Blogg</a>
+        <a href="varukorg.html" id="cart-link">Varukorg <span id="cartNotification">0</span></a>
+        <ul id="cartItems"></ul>
+        </div>
+    </nav>
+
+ <section>
+    <div id="productContainer" class="flex-container">
+        <div class="product">
+            <img src="images/4.png" alt="Produkt 1">
+            <h2>Produkt 1</h2>
+            <p>Pris: $19.99</p>
+            <button onclick="addToCart('Produkt 1', 19.99)">Lägg till i varukorgen</button>
+            <button onclick="showProductDetails('Produkt 1', 19.99)">Detaljer</button>
+            <div class="details-container"></div>
+            <div class="rating">
+                <span onclick="rateProduct(1)">★</span>
+                <span onclick="rateProduct(2)">★</span>
+                <span onclick="rateProduct(3)">★</span>
+                <span onclick="rateProduct(4)">★</span>
+                <span onclick="rateProduct(5)">★</span>
+            </div>
+        </div>
+        
+        
+        
+    
+        <div id="productContainer" class="flex-container">
+            <div class="product" onclick="addToCart('Produkt 2', 19.99)">
+                <img src="images/5.png" alt="Produkt 1">
+                <h2>Produkt 2</h2>
+                <p>Pris: $29.99</p>
+                <button>Lägg till i varukorgen</button>
+                <div class="rating">
+                    <span onclick="rateProduct(1)">★</span>
+                    <span onclick="rateProduct(2)">★</span>
+                    <span onclick="rateProduct(3)">★</span>
+                    <span onclick="rateProduct(4)">★</span>
+                    <span onclick="rateProduct(5)">★</span>
+                </div>
+            </div>
+        
+            <!-- Upprepa för andra produkter -->
+        </div>
+        <div id="productContainer" class="flex-container">
+            <div class="product" onclick="addToCart('Produkt 1', 19.99)">
+                <img src="images/6.png" alt="Produkt 1">
+                <h2>Produkt 3</h2>
+                <p>Pris: $19.99</p>
+                <button>Lägg till i varukorgen</button>
+                <div class="rating">
+                    <span onclick="rateProduct(1)">★</span>
+                    <span onclick="rateProduct(2)">★</span>
+                    <span onclick="rateProduct(3)">★</span>
+                    <span onclick="rateProduct(4)">★</span>
+                    <span onclick="rateProduct(5)">★</span>
+                </div>
+            </div>
+        
+            <!-- Upprepa för andra produkter -->
+        </div>
+        <div id="productContainer" class="flex-container">
+            <div class="product" onclick="addToCart('Produkt 1', 19.99)">
+                <img src="images/7.png" alt="Produkt 1">
+                <h2>Produkt 4</h2>
+                <p>Pris: $19.99</p>
+                <button>Lägg till i varukorgen</button>
+                <div class="rating">
+                    <span onclick="rateProduct(1)">★</span>
+                    <span onclick="rateProduct(2)">★</span>
+                    <span onclick="rateProduct(3)">★</span>
+                    <span onclick="rateProduct(4)">★</span>
+                    <span onclick="rateProduct(5)">★</span>
+                </div>
+            </div>
+        
+            <!-- Upprepa för andra produkter -->
+        </div>
+        <div id="productContainer" class="flex-container">
+            <div class="product" onclick="addToCart('Produkt 1', 19.99)">
+                <img src="images/8.png" alt="Produkt 1">
+                <h2>Produkt 5</h2>
+                <p>Pris: $19.99</p>
+                <button>Lägg till i varukorgen</button>
+                <div class="rating">
+                    <span onclick="rateProduct(1)">★</span>
+                    <span onclick="rateProduct(2)">★</span>
+                    <span onclick="rateProduct(3)">★</span>
+                    <span onclick="rateProduct(4)">★</span>
+                    <span onclick="rateProduct(5)">★</span>
+                </div>
+            </div>
+        
+            <!-- Upprepa för andra produkter -->
+        </div>
+        <div id="productContainer" class="flex-container">
+            <div class="product" onclick="addToCart('Produkt 1', 19.99)">
+                <img src="images/9.png" alt="Produkt 1">
+                <h2>Produkt 6</h2>
+                <p>Pris: $19.99</p>
+                <button>Lägg till i varukorgen</button>
+                <div class="rating">
+                    <span onclick="rateProduct(1)">★</span>
+                    <span onclick="rateProduct(2)">★</span>
+                    <span onclick="rateProduct(3)">★</span>
+                    <span onclick="rateProduct(4)">★</span>
+                    <span onclick="rateProduct(5)">★</span>
+                </div>
+            </div>
+        
+            <!-- Upprepa för andra produkter -->
+        </div>
+ </section>
+
+
+   
+ <footer>
+    <div class="footer-content">
+      <div class="footer-section about">
+        <h3>Om Oss</h3>
+        <p>Flux Mode är din destination för unik och trendig mode. Utforska vårt exklusiva sortiment och låt oss vara din guide till en värld av stil och kreativitet.</p>
+      </div>
+      <div class="footer-section contact">
+        <h3>Kontakt</h3>
+        <p>
+          Adress: [Din Adress]<br>
+          Telefon: [Ditt Telefonnummer]<br>
+          E-post: info@fluxmode.com
+        </p>
+      </div>
+      <div class="footer-section links">
+        <h3>Användbara Länkar</h3>
+        <ul>
+          <a href="index.html">Hem</a> 
+        <a href="designers.html">Designers</a> 
+        <a href="webshop.html">Webbshop</a> 
+        <a href="contact.html">Kontakt</a>
+        <a href="https://minrodab.wordpress.com/" target="_blank">Blogg</a>
+        
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2024 Flux Mode. Alla rättigheter förbehållna.
+    </div>
+  </footer>
+
+    <script src="Fluc.js"></script>
+</body>
+</html>
